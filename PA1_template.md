@@ -78,9 +78,11 @@ names(avg_steps_each_interval)[which.max(avg_steps_each_interval)]
 ```
 ## [1] "835"
 ```
-Interval at which max avg steps is recorded is 835
+5 min Interval at which max avg steps is recorded is *835-840*
 
 ## Imputing missing values
+
+Strategy - All the NA values are replaced by the average number of steps taken in particular interval 
 
 
 ```r

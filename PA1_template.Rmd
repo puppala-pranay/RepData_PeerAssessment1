@@ -41,9 +41,11 @@ plot(all_intervals,avg_steps_each_interval,type="l")
 names(avg_steps_each_interval)[which.max(avg_steps_each_interval)]
 
 ```
-Interval at which max avg steps is recorded is 835
+5 min Interval at which max avg steps is recorded is *835-840*
 
 ## Imputing missing values
+
+Strategy - All the NA values are replaced by the average number of steps taken in particular interval 
 
 ```{r}
 table(is.na(data$steps))
